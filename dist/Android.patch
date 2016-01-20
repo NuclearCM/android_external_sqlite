@@ -1,6 +1,6 @@
 diff -r -u -d orig/shell.c ./shell.c
---- orig/shell.c	2015-11-03 03:44:04.000000000 +0900
-+++ ./shell.c	2015-11-18 20:27:18.043148626 +0900
+--- orig/shell.c	2015-11-03 01:44:04.000000000 -0800
++++ ./shell.c	2015-12-23 09:50:51.081951250 -0800
 @@ -52,6 +52,12 @@
  #endif
  #include <ctype.h>
@@ -38,8 +38,8 @@ diff -r -u -d orig/shell.c ./shell.c
  }
  
 diff -r -u -d orig/sqlite3.c ./sqlite3.c
---- orig/sqlite3.c	2015-11-03 03:44:04.000000000 +0900
-+++ ./sqlite3.c	2015-11-18 20:27:18.061148320 +0900
+--- orig/sqlite3.c	2015-11-03 01:44:04.000000000 -0800
++++ ./sqlite3.c	2015-12-23 09:50:51.113951381 -0800
 @@ -26470,6 +26470,13 @@
  /* #include "sqliteInt.h" */
  #if SQLITE_OS_UNIX              /* This file is used on unix only */
